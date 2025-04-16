@@ -1,0 +1,6 @@
+/* Reset básico */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*Ajuda a deixar os elementos organizados dentro das caixas */
+}
