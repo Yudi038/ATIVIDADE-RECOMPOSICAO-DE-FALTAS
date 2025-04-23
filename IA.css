@@ -1,6 +1,54 @@
+/*PALETA DE CORES DO SITE
+.color1 { #4180ab };
+.color2 { #ffffff };
+.color3 { #8ab3cf };
+.color4 { #bdd1de };
+.color5 { #e4ebf0 };*/
+
+
 /* Reset básico */
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;/*Ajuda a deixar os elementos organizados dentro das caixas */
+    box-sizing: border-box;
+    /*Ajuda a deixar os elementos organizados dentro das caixas */
+}
+
+header {
+    padding: 1rem;
+    background-color: #4180ab;
+    color: white;
+}
+
+
+.sec1 {
+    padding: 6rem;
+    background-color: #8ab3cf;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    
+}
+
+.sec2 {
+    padding: 6rem;
+    background-color: #8ab3cf;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    flex-wrap: wrap ;
+}
+
+img{
+height: auto;
+width: 100%;
 }
