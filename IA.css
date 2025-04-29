@@ -159,14 +159,14 @@ footer {
     gap: 30px;
 }
 
-.ul-fot {}
+
 
 .ul-fot li {
     list-style: none
 }
 
 .ul-fot li a {
-    font-size: ;
+    font-size: 1rem;
     color: black;
     text-decoration: none;
 
